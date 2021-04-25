@@ -9,14 +9,16 @@
 <body>
       <section>
             <div class="box">
+                  <h1>UI/UX Glass Frame Calendar <br>with Hovering Effect</h1>
                   <div class="container">
                         <div id="dycalendar"></div>
                   </div>
             </div>
 
       </section>
- <script src="dycalendar.js"></script>  
- <script>
+      
+      <script src="dycalendar.js"></script>  
+    <script>
       dycalendar.draw({
             target: '#dycalendar',
             type: 'month',
@@ -26,7 +28,13 @@
             prevnextbutton: 'show'
 
       })
-</script>   
-
+      </script>   <script type="text/javascript" src = "vanilla-tilt.js"></script>
+ <script>VanillaTilt.init(document.querySelector(".box"),{
+      max: 25,
+      speed: 400,
+      
+ });
+      </script>
+  
 </body>
 </html>
