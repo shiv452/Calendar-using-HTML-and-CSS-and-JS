@@ -94,3 +94,10 @@ section::after{
       font-size: 1.5rem;
       font-weight: 600;
 }
+h1{
+      color: whitesmoke;
+      background: grey;
+      margin: 10px;
+      padding: 10px;
+      clip-path: circle(120% at left 20%);
+}
